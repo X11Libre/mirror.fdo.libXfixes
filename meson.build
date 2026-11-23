@@ -75,6 +75,7 @@ lib = library(
   include_directories: 'include/X11/extensions/',
   dependencies: [dep_xproto, dep_fixesproto, dep_xextproto, dep_libx11],
   version: '3.1.0',
+  darwin_versions: [ '5.0.0', '5.0.0' ],
   install: true,
 )
 
